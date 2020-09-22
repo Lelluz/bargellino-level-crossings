@@ -1,11 +1,19 @@
 @import './Variables.scss';
 
 .level-crossing {
+
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+
   .indicator {
-    height: 60px;
-    width: 60px;
+    height: 52px;
+    width: 52px;
     border-radius: 50%;
-    background-color: $light;
+    background-color: $green;
   }
-  .message {}
+  .message {
+    color: $light;
+    margin-left: 15px;
+  }
 }

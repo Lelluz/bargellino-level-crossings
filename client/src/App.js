@@ -7,8 +7,10 @@ import IncomingTrains from './components/IncomingTrains'
 function App() {
   return (
     <div className="App">
-      <LevelCrossing></LevelCrossing>
+      <h1 className="title">Passaggio a Livello Via Commenda</h1>
+      <h3 className="trains-title">Treni di passaggio</h3>
       <IncomingTrains></IncomingTrains>
+      <LevelCrossing></LevelCrossing>
     </div>
   )
 }

@@ -49,6 +49,11 @@ function IncomingTrains() {
   }
   return (
     <div className="incoming-trains">
+      <div className="incoming-trains-head">
+        <span>Destinazione</span>
+        <span>Arrivo</span>
+        <span>Arrivato</span>
+      </div>
       {displayTrains(trainsList)}
     </div>
   );

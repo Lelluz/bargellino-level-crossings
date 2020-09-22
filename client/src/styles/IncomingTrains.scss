@@ -1,7 +1,30 @@
 @import './Variables.scss';
 
 .incoming-trains {
-  border-radius: 0.45rem;
+  border-radius: 0.15rem;
   border: solid 2px $light;
-  padding: 30px;
+  max-height: 220px;
+  overflow: scroll;
+  position: relative;
+
+  .incoming-trains-head {
+    padding: 10px;
+    background: $light;
+    color: $dark;
+    position: sticky;
+    top: 0;
+    
+    display: flex;
+    align-items: center;
+
+    :nth-child(1) {
+      width: 50%;
+    }
+    :nth-child(2) {
+      width: 20%;
+    }
+    :nth-child(2) {
+      width: 30%;
+    }
+  }
 }
